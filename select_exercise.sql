@@ -20,4 +20,6 @@ SELECT sales
 FROM albums
 WHERE sales < 25;
 
-
+SELECT genre
+FROM albums
+WHERE genre like '%rock%';
