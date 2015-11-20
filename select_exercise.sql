@@ -12,4 +12,8 @@ SELECT genre
 FROM albums
 WHERE name = "Saturday Night Fever";
 
+SELECT release_date 
+FROM albums
+WHERE release_date BETWEEN 1970 AND 1980;
+
 
