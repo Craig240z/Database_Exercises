@@ -16,4 +16,8 @@ SELECT release_date
 FROM albums
 WHERE release_date BETWEEN 1970 AND 1980;
 
+SELECT sales
+FROM albums
+WHERE sales < 25;
+
 
