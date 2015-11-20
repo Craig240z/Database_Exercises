@@ -2,7 +2,7 @@ USE codeup_test_db;
 
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
-VALUES ('Michael Jackson', 'Thiller', '1982', '43.3', 'Pop, rock, R&B');
+VALUES ('Michael Jackson', 'Thrller', '1982', '43.3', 'Pop, rock, R&B');
 
 INSERT INTO albums (artist, name, release_date, sales, genre)
 VALUES ('AC/DC', 'Back in Black', '1980', '25.9', 'Hard Rock');
