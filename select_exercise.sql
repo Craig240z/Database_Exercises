@@ -8,3 +8,8 @@ SELECT release_date
 FROM albums 
 WHERE name = "Bat Out of Hell";
 
+SELECT genre
+FROM albums
+WHERE name = "Saturday Night Fever";
+
+
