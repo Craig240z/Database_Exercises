@@ -125,7 +125,7 @@ SELECT  *
 FROM    employees
 WHERE   hire_date LIKE  '199%'
 AND birth_date LIKE '%-12-25'
-ORDER BY birth_date, hire_date DESC;
+ORDER BY birth_date ASC, hire_date DESC;
 
 SELECT  last_name
 FROM    employees
